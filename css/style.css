@@ -1,0 +1,118 @@
+/*# sourceMappingURL=style.css.map */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: ubuntu, sans-serif;
+}
+.container {
+  background-color: #04bf9d;
+  text-align: center;
+  min-height: 100vh;
+}
+.background {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 250px;
+  margin-left: 25em;
+  border-radius: 5px;
+}
+.header {
+  font-size: 15px;
+  padding: 10px;
+}
+.imgusername {
+  width: 10px;
+  height: auto;
+}
+.imgpassword {
+  width: 10px;
+  height: auto;
+}
+.form {
+  font-size: 13px;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+.forgot {
+  padding: 10px;
+  font-size: 13px;
+  text-align: right;
+}
+.forgot:hover {
+  color: #04bf9d;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.Login {
+  padding: 5px;
+  margin: 10px;
+  margin-top: 2em;
+  margin-left: 3.8em;
+  border: 1px solid black;
+  font-size: 13px;
+  border-radius: 30px;
+  background-color: #f27457;
+  color: white;
+  width: 150px;
+}
+.Login:hover {
+  color: #04bf9d;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.img {
+  padding: 10px;
+  margin: 10px;
+}
+.facebook {
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+}
+.facebook:hover {
+  border: 2px solid #04bf9d;
+  border-radius: 14px;
+}
+.twitter {
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+}
+.twitter:hover {
+  border: 2px solid #04bf9d;
+  border-radius: 14px;
+}
+.google {
+  width: 30px;
+  height: auto;
+  cursor: pointer;
+}
+.google:hover {
+  border: 2px solid #04bf9d;
+  border-radius: 14px;
+}
+.sign {
+  padding: 10px;
+  margin: 10px;
+  font-size: 13px;
+}
+.footer {
+  padding: 10px;
+  margin: 10px;
+  font-size: 13px;
+}
+.paragraph {
+  padding: 10px;
+}
+.link {
+  cursor: pointer;
+}
+.link:hover {
+  color: #04bf9d;
+  transition: 0.4s;
+}
